@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^35.209.213.7 [NC]
+RewriteRule ^(.*)$ 35.209.a213.7/$1 [L,R=301]
